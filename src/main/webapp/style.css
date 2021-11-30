@@ -1,0 +1,239 @@
+@charset "UTF-8";
+/* CSS Document */
+#container {
+	width: 800px;
+	float: none;
+	border-radius: 20px;
+	background-color: #D3D3D3;
+	-webkit-box-shadow: 4px 4px 39px -8px #000000;
+	box-shadow: 4px 4px 39px -8px #000000;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-image: url(images/concrete_seamless.png);
+	padding: 20px;
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+body {
+	background-image: url(images/wild_oliva.png);
+	padding: 10;
+	background-repeat: repeat;
+}
+
+#CheckAdmin p {
+	color: #00bfff;
+	text-align: center;
+	font-size: 2em;
+}
+
+#headerimg {
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: 144px;
+	display: block;
+	padding-top: 10px;
+}
+
+#kysymyscont {
+	font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 600px;
+	display: block;
+	height: 150px;
+}
+
+.kysymys {
+	width: 600px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	height: 100px;
+	color: #3E3E3E;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold",
+		"Arial Black", sans-serif;
+	text-align: center;
+}
+
+#submitnappi {
+	float: none;
+	margin-left: auto;
+	margin-right: auto;
+	width: 150px;
+	height: 50px;
+	display: block;
+	margin-top: 20px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold",
+		"Arial Black", sans-serif;
+	font-style: normal;
+	font-size: large;
+}
+
+#vastausformi {
+	height: 100px;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#CheckAdmin {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding-top: 40px;
+}
+
+#CheckAdmin input {
+	width: 300px;
+	padding: 5px;
+}
+
+#CheckAdmin #submit {
+	width: 100px;
+	padding: 5px;
+}
+
+#pid {
+	width: 95%;
+	border: 1px solid #00bfff;
+	padding: 5px;
+}
+
+thead {
+	background-color: #00bfff;
+}
+
+th {
+	color: #ffffff;
+}
+
+table {
+	margin: 0 auto;
+}
+
+table, td {
+	border: 1px solid #00bfff;
+	text-align: left;
+	padding: 8px;
+}
+
+h3 {
+	text-align: right;
+	padding-right: 40px;
+}
+
+h2 {
+	text-align: center;
+	color: #00bfff;
+}
+
+h1 {
+	text-align: center;
+	padding: 20px;
+	color: #00bfff;
+}
+
+a.button {
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+	text-decoration: none;
+	color: initial;
+}
+
+.button {
+    left: 1110px;
+    bottom: 82px;
+    padding: 10px;
+    position: relative;
+}
+
+
+#cancel {
+	left: 30px;
+	position: relative;
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+	text-decoration: none;
+	color: initial;
+}
+
+form {
+	padding-bottom: 25px;
+}
+
+.pagination {
+	text-align: right;
+	margin-right: 550px;
+	margin-top: 50px;
+}
+
+.pagination a {
+	text-decoration: none;
+	font-weight: bolder;
+	color: #00bfff;
+}
+
+span {
+	font-weight: bolder;
+	color: #00bfff;
+}
+
+.buton {
+	display: inline-block;
+	padding: 2px;
+	-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+	text-decoration: none;
+	color: initial;
+}
+
+/* ________________view user page ________________*/
+
+
+/* ________________Update user page ________________*/
+.editdiv {
+	position: relative;
+	padding: 20px;
+}
+
+.edit {
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	margin-top: 100px;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	box-sizing: border-box;
+	background-color: #f2f2f2;
+	padding: 50px;
+}
+
+.edit input {
+	padding: 8px;
+	margin: 5px;
+	border-radius: 7px;
+}
+
+
+.backList{
+	position: absolute;
+	left: 85%;
+	transform: translateX(-50%);
+		-webkit-appearance: button;
+	-moz-appearance: button;
+	appearance: button;
+	text-decoration: none;
+	color: initial;
+}
+
+.Logout {
+    position: relative;
+    left: 1235px;
+    transform: translateY(-50%);
+}
